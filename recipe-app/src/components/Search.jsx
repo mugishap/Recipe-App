@@ -15,7 +15,7 @@ const submitHandler = (e) => {
         <FormStyle onSubmit={submitHandler}>
             <div>
                 <FaSearch></FaSearch>
-                <input type="text" onChange={(e) => setInput(e.target.value)} value={input} /> 
+                <input type="text" placeholder="Search for a recipe" onChange={(e) => setInput(e.target.value)} value={input} /> 
             </div>
         </FormStyle>
     )

@@ -20,7 +20,7 @@ function Veggie() {
         else {
 
             const api = await fetch(
-                "https://api.spoonacular.com/recipes/random?apiKey=7a907c7d1867444eb15805d0ffb9b287&number=9&tags=vegetarian"
+                "https://api.spoonacular.com/recipes/random?apiKey=5e79fd42e3204367a69b566ee1114b6d&number=9&tags=vegetarian"
             )
             const data = await api.json()
             localStorage.setItem('veggie',JSON.stringify(data.recipes))
