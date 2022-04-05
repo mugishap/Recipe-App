@@ -76,7 +76,7 @@ img{
 p{
     position:absolute;
     z-index: 10;
-    left:50%,
+    left:50%;
     bottom: 0%;
     transform: translate(0%,70%);
     color:white;
@@ -85,7 +85,7 @@ p{
     font-weight: 600;
     font-size: 1rem;
     height: 100%;
-    display: flex:
+    display: flex;
     justify-content:center;
     align-items: center;
 }
